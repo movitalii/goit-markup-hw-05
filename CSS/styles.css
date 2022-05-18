@@ -707,3 +707,49 @@ img {
     cursor: pointer;
 }
 
+.projects .link:hover .text-projects,
+.projects .link:focus .text-projects {
+    opacity: 1;
+}
+
+ .projects .link:hover .projects-thumb::before,
+ .projects .link:focus .projects-thumb::before {
+    opacity:1;
+}
+
+.projects-thumb {
+    position: relative;
+}
+
+
+.projects-thumb::before {
+    display: inline-block;
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 150, 243, 0.9);
+
+    opacity: 0;
+}
+
+
+.text-projects {
+    position: absolute;
+    width: 322px;
+    height: 168px;
+    left: 24px;
+    top: 63px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+
+    opacity: 0;
+}
