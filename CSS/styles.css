@@ -838,7 +838,7 @@ img {
     letter-spacing: 0.03em;
 
     
-    transform: translateY(calc(100% + 63px));
+    transform: translateY(100%);
     transition: transform var(--timing-function);
     
 }
